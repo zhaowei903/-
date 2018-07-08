@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing:border-box;
+    font-family:"苹方","微软雅黑",mecrosoft;
+}
+a{
+    text-decoration:none;
+}
+body{
+    background:#f8f6f3;
+}
+header{
+    width:7.5rem;
+    height:2.94rem;
+    background:#f45656;
+    position:fixed;
+    top:0;
+    right:0;
+}
+header a{
+    display:block;
+    width:0.24rem;
+    height:1.2rem;
+    margin-left:0.24rem;
+}
+header h2{
+    margin-left:0.76rem;
+    text-align: left;
+    font-size: 0.4rem;
+    font-weight: bold;
+    color:#fff;
+}
+
+header a img{
+    width:0.24rem;
+    height:0.44rem;
+}
+header .boxOut{
+    width:6.37rem;
+    height:6.34rem;
+    background:#f8f7f7;
+    box-shadow:0 0 0.3rem rgba(0,0,0,0.2);
+    position:absolute;
+    top:2.22rem;
+    left:0.56rem;
+    border-radius:0.1rem;
+}
+header .boxOut .boxIn{
+    width:5.44rem;
+    height:1.03rem;
+    background:#fff;
+    box-shadow:0 0 0.3rem rgba(0,0,0,0.2);
+    margin:0.46rem auto 0.68rem;
+    padding:0.24rem 0.34rem;
+}
+header .boxOut .boxIn img{
+    width:2.64rem;
+    height:0.56rem;
+    float: left;
+}
+header .boxOut .boxIn p{
+    color:#f45656;
+    font-size: 0.28rem;
+    font-weight: bold;
+    float:right;
+    margin-top:0.14rem;
+}
+header .boxOut .card{
+    width:5.34rem;
+    height:2.94rem;
+    margin:0 auto;
+}
+header .boxOut .card img{
+    width:5.34rem;
+    height:2.94rem;
+}
+footer{
+    width:7.5rem;
+    height:6.7rem;
+    background:rgba(255,255,255,0.75);
+    position:fixed;
+    bottom:0;
+    right:0;
+    box-shadow:0.15rem 0 0.3rem rgba(0,0,0,0.2);
+    z-index: 999;
+    text-align: center;
+}
+footer img{
+    width:4.38rem;
+    position: absolute;
+    top:0.62rem;
+    left:1.64rem;
+}
+footer h3{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color:#000;
+    text-align: center;
+    position:absolute;
+    top:0.46rem;
+    left:2.26rem;
+}
+footer a{
+    display:block;
+    width:7.5rem;
+    height:4.96rem;
+    position:absolute;
+    bottom:0;
+}
+footer a img{
+    width:7.5rem;
+    position:absolute;
+    top:0;
+    left:0;
+}

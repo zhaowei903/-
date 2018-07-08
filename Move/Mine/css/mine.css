@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+header{
+    width:7.5rem;
+    height:5.32rem;
+    background:#f45656 url("../img/topback.png") no-repeat top 3.04rem center/9.07rem 9.20rem;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:0.9rem 0.7rem 0;
+    text-align: center;
+    z-index: 999;
+    overflow: hidden;
+}
+header p{
+    color:#fff;
+    font-weight: bold;
+    font-size: 0.3rem;
+}
+header .set{
+    width:0.46rem;
+    float: right;
+    position: absolute;
+    top:0.84rem;
+    right:0.64rem;
+}
+header .head{
+    width:2.4rem;
+    margin-top:0.24rem;
+}
+header .name{
+    margin:-0.3rem 2.36rem;
+    display:block;
+    width:1.68rem;
+}
+header .name_p{
+    font-size: 0.3rem;
+    color:#999;
+    position: absolute;
+    top:3.9rem;
+    left:3.46rem;
+}
+header .title{
+    font-size: 0.22rem;
+    color:#f30e0e;
+    position: absolute;
+    top:4.38rem;
+    left:2.94rem;
+}
+header .bottom{
+    width:6.64rem;
+    height:0.32rem;
+    display:flex;
+    justify-content: space-between;
+    margin-top:0.5rem;
+    margin-left:-0.26rem;
+}
+header .bottom .left{
+    width:50%;
+    font-size: 0.22rem;
+    color:#a3a3a3;
+    font-weight: normal;
+    text-align: left;
+}
+header .bottom .right{
+    width:1.56rem;
+    height:0.26rem;
+    float: right;
+    font-size: 0.22rem;
+    color:#a3a3a3;
+    font-weight: normal;
+}
+header .bottom img{
+    width:0.25rem;
+}
+.center{
+    width:4.44rem;
+    position: fixed;
+    top:5.4rem;
+    left:1.64rem;
+}
+ul{
+    width:6rem;
+    height:4.38rem;
+    position: fixed;
+    top:5.8rem;
+    left:0.8rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+li{
+    width:6rem;
+    height:0.94rem;
+    padding:0.26rem 0.15rem;
+    border-radius: 0.1rem;
+    box-shadow: 0 0 0.15rem rgba(0,0,0,0.2);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color:#585858;
+}
+li img{
+    width:0.34rem;
+}
+li .right{
+    width:0.13rem;
+    height:0.25rem;
+}
+footer{
+    width:7.5rem;
+    height:1.15rem;
+    background:#fff;
+    box-shadow: -0.15rem 0 0.3rem rgba(0,0,0,0.1);
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+footer img{
+    width:0.58rem;
+    height:0.86rem;
+}
+footer img:nth-child(2){
+    width:0.52rem;
+    height:0.86rem;
+}

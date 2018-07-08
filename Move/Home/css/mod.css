@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+.head{
+    width:7.5rem;
+    height:0.86rem;
+    background:#f45656;
+    padding-left:0.24rem;
+    padding-right:0.24rem;
+    display:flex;
+    justify-content: flex-start;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:5;
+}
+.head .location img{
+    width:0.38rem;
+    height:0.5rem;
+    margin-right:0.04rem;
+}
+.head .location{
+    width:1.36rem;
+    height:0.86rem;
+    font-weight:bold;
+    font-size:0.28rem;
+    line-height:0.86rem;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+.head .search{
+    width:5.72rem;
+    height: 0.86rem;
+    position:relative;
+}
+.head .search input{
+    display:block;
+    width:5.18rem;
+    height: 0.5rem;
+    border:none;
+    border-radius:0.25rem;
+    margin-left:0.12rem;
+    margin-top:0.2rem;
+    padding:0.26rem;
+    font-size:0.16rem;
+}
+.head .search img{
+    width:0.25rem;
+    height:0.25rem;
+    position:absolute;
+    top:0.35rem;
+    right:0.5rem;
+}
+.nav{
+    width:7.5rem;
+    height:3.66rem;
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:0.86rem;
+}
+.nav li{
+    width:25%;
+    height:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li img{
+    display: block;
+    width:1.1rem;
+}
+.banner{
+    width:7.5rem;
+    height:1.8rem;
+    padding-left:0.24rem;
+    padding-right:0.24rem;
+    position:relative;
+}
+.banner img{
+    width:7.04rem;
+    height:1.8rem;
+}
+
+.banner .dot{
+    width:0.75rem;
+    height:0.05rem;
+    position:absolute;
+    bottom: 0.04rem;
+    right:0;
+    left:0;
+    margin:0 auto;
+}
+.banner .dot li:nth-child(1){
+    width:0.09rem;
+    height:0.05rem;
+    background:#f45656;
+    border-radius:0.025rem;
+}
+.banner .dot li{
+    width:0.05rem;
+    height:0.05rem;
+    background:#fff;
+    border-radius:0.025rem;
+}
+.preferential{
+    width:7.5rem;
+    height:7.3rem;
+    margin-top:0.43rem;
+    border-top:0.03rem solid #e7e6e7;
+    border-bottom:0.03rem solid #e7e6e7;
+    padding-right:0.24rem;
+    padding-left:0.24rem;
+    padding-bottom:0.4rem;
+}
+.preferential .top{
+    width: 4.65rem;
+    margin-left:1.2rem;
+}
+.preferential .thefour{
+    width:7.04rem;
+    display:flex;
+    flex-wrap:wrap;
+}
+.preferential .thefour .one{
+    width:2.79rem;
+    height:2.66rem;
+}
+.preferential .thefour .two{
+    width:4.25rem;
+    height:2.66rem;
+}
+.preferential .thefour .three{
+    width:4.44rem;
+    height:2.8rem;
+}
+.preferential .thefour .four{
+    width:2.6em;
+    height:2.8rem;
+}
+.recommend{
+    width: 7.5rem;
+    height: 11.7rem;
+    padding-left:0.24rem;
+    padding-right:0.24rem;
+    margin-bottom:0.86rem;
+}
+.recommend .top{
+    width:4.65rem;
+    margin-left:1.2rem;
+}
+.recommend .nav{
+    width:7.04rem;
+    height:0.8rem;
+    margin-top:0;
+    line-height:0.8rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+.recommend .left{
+    width:3.44rem;
+    height:0.8rem;
+    display:flex;
+    justify-content: space-between;
+}
+.recommend .left a{
+    font-size:0.24rem;
+    color:#cacaca;
+}
+.recommend .left .first{
+    font-size:0.2rem;
+    color:#585858;
+    font-weight:bold;
+}
+.recommend .right{
+    font-size:0.24rem;
+    color:#cacaca;
+}
+.recommend .box{
+    width:7.04rem;
+    height:2rem;
+    box-shadow:0 0 0.3rem rgba(0,0,0,0.1);
+    margin-bottom:0.36rem;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.recommend .box img{
+    width:1.8rem;
+    height:1.8rem;
+}
+.recommend .box .text{
+    width:3.7rem;
+    height:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.recommend .box .distance{
+    width:0.54rem;
+    height:2rem;
+    font-size:0.16rem;
+    line-height:0.5rem;
+    color:#dedede;
+}
+.recommend .box .text .title{
+    width:2.66rem;
+    height:0.45rem;
+    border-bottom:0.01rem dotted #d1cdcd;
+    font-size:0.29rem;
+    color:#9a9999;
+    font-weight:bold;
+}
+.recommend .box .text .one{
+    width:2.9rem;
+    height:0.19rem;
+    font-size:0.18rem;
+    color:#c2c1c1;
+
+}
+.recommend .box .text .one img{
+    width:0.19rem;
+    height:0.19rem;
+}
+.recommend .box .text .one a{
+    font-size:0.18rem;
+    color:#c2c1c1;
+}
+.recommend .box .text .two{
+    height:0.19rem;
+    font-size:0.18rem;
+    color:#c2c1c1;
+}
+.recommend .box .text .three{
+    width:2.16rem;
+    height:0.26rem;
+}
+footer{
+    width:7.5rem;
+    height:1.15rem;
+    background:#fff;
+    box-shadow: -0.15rem 0 0.3rem rgba(0,0,0,0.1);
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+footer img{
+     width:0.58rem;
+     height:0.86rem;
+ }
+footer img:nth-child(2){
+    width:0.52rem;
+    height:0.86rem;
+}

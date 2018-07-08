@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing:border-box;
+    font-family:"苹方","微软雅黑",mecrosoft;
+}
+a{
+    text-decoration:none;
+}
+body{
+    background:#f8f6f3;
+}
+header{
+    width:7.5rem;
+    height:13.34rem;
+    background:#f45656 url("../img/center.png") no-repeat bottom center/7.6rem;
+    position:fixed;
+    top:0;
+    right:0;
+    text-align: center;
+}
+header .top{
+     width:7.5rem;
+     height:1.2rem;
+     padding:0 0.24rem;
+    display:flex;
+    justify-content: space-between;
+}
+header .top .left{
+    width:0.24rem;
+    height:0.44rem;
+}
+header .top .right{
+    width:0.7rem;
+    height:0.44rem;
+
+}
+header h6{
+    font-size: 0.49rem;
+    color:#fff;
+    margin:1.1rem 2.76rem 0.86rem;
+}
+header p{
+    font-size: 0.22rem;
+    color:#fff;
+}
+header .bottom{
+    width:6.1rem;
+    height:0.92rem;
+    margin:7.2rem auto auto;
+    display:flex;
+    justify-content: space-between;
+}header .bottom a{
+    display:block;
+ }
+header .bottom img{
+    width:2.34rem;
+}
